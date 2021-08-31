@@ -101,3 +101,4 @@ if __name__ == '__main__':
     decoder.load_state_dict(torch.load("InterlinguaTranslatorModel_dec_weights.pt", map_location=torch.device('cpu')))
 
     print("Finished")
+    application.run()
